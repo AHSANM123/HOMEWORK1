@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PORTFOLIO</title>
+</head>
+<body>
+  <div class="Portfolio">
+      <nav>
+          
+          <ul>
+            <li><a href="file:///D:/HOMEWORK1/index.html#">Home</a></li>
+            <li><a href="file:///D:/HOMEWORK1/ABOUT.html#">About</a></li>
+            <li><a href="file:///D:/HOMEWORK1/Contact.html">Contact</a></li>
+            <li><a href="file:///D:/HOMEWORK1/Portfolio.html">Portfolio</a></li>
+            
+             
+          </ul>
+         
+      </nav>
+  <div class="main">
+<h2>PORTFOLIO</h2>
+<div class="row">
+<div class="column">
+  <div class="content">
+    <img src="mountains.jpg" alt="Mountains" style="width:100%">      
+  </div>
+</div>
+<div class="column">
+  <div class="content">
+  <img src="3.jpg" alt="Lights" style="width:100%">
+  </div>
+</div>
+<div class="column">
+  <div class="content">
+  <img src="5.jpg" alt="Nature" style="width:100%">
+  </div>
+</div>
+<div class="column">
+  <div class="content">
+  <img src="1.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+</div>
+
+<div class="content">
+<img src="p3.jpg" alt="Bear" style="width:100%">
+</div>
+</div>
+
+</body>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</html>
